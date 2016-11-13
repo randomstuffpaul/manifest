@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
+	
+  <remote  name="github"
+           fetch="https://github.com" />	
   <remote  name="aosp"
-           fetch=".." />
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com" />
+  <remote  name="calphonic"
+           fetch="https://github.com/calebcabob/" 
+           sync-j="6" />          
   <default revision="refs/tags/android-7.1.1_r6"
            remote="aosp"
+           sync-c="true"
            sync-j="4" />
+           
 
+  <!-- calphonic repos -->
+
+           
+  <!-- calphonic kernels -->           
+
+           
+  <!-- calphonic proprietary vendor blobs -->           
+
+           
+  <!-- aosp repos -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
