@@ -21,6 +21,7 @@
   </project>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="calphonic" revision="n7.1.1" />
   <project path="manifest" name="calphonic_manifest" remote="calphonic" revision="n7.1.1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="calphonic" revision="n7.1.1" />
   <project path="vendor/calphonic" name="vendor_calphonic" remote="calphonic" revision="n7.1.1" />
 
   <!-- calphonic devices -->           
