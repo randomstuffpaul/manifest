@@ -18,7 +18,13 @@
   <!-- calphonic repos -->
   <project path="manifest" name="calphonic_manifest" remote="calphonic" revision="n7.1.1" />
   <project path="vendor/calphonic" name="vendor_calphonic" remote="calphonic" revision="n7.1.1" />
+<<<<<<< HEAD
   <project path="frameworks/base" name="frameworks_base" remote="calphonic" revision="n7.1.1" />
+=======
+  <project path="build" name="platform_build" groups="pdk,tradefed" remote="calphonic" revision="n7.1.1" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+>>>>>>> 0137baf... Track build repo locally
 
   <!-- calphonic kernels -->           
 
@@ -27,9 +33,6 @@
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="calphonic" revision="android-7.1" />
 
   <!-- aosp repos -->
-  <project path="build" name="platform/build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
