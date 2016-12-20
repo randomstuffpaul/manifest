@@ -16,14 +16,14 @@
            
 
   <!-- calphonic repos -->
+  <project path="manifest" name="calebcabob_manifest" remote="calphonic" revision="n7.1.1" />
 
-           
   <!-- calphonic kernels -->           
 
-           
+
   <!-- calphonic proprietary vendor blobs -->           
 
-           
+
   <!-- aosp repos -->
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
