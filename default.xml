@@ -18,6 +18,8 @@
   <!-- calphonic repos -->
   <project path="manifest" name="calphonic_manifest" remote="calphonic" revision="n7.1.1" />
   <project path="vendor/calphonic" name="vendor_calphonic" remote="calphonic" revision="n7.1.1" />
+  <project path="frameworks/base" name="frameworks_base" remote="calphonic" revision="n7.1.1" />
+
   <!-- calphonic kernels -->           
 
 
