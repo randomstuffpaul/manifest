@@ -15,18 +15,21 @@
            sync-j="4" />
            
 
-  <!-- calphonic repos 
+  <!-- calphonic repos -->
   <project path="build" name="build" groups="pdk,tradefed" remote="calphonic" revision="n7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
-  </project> -->
+  </project>
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="calphonic" revision="n7.1.1" />
   <project path="manifest" name="calphonic_manifest" remote="calphonic" revision="n7.1.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="calphonic" revision="n7.1.1" />
   <project path="vendor/calphonic" name="vendor_calphonic" remote="calphonic" revision="n7.1.1" />
 
-  <!-- calphonic devices            
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="calphonic" revision="n7.1.1" /> -->
+  <!-- calphonic devices --> 
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="calphonic" revision="n7.1.1" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="calphonic" revision="android-7.1" />
+
+  <!-- stock kernel -->
+  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
 
   <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />

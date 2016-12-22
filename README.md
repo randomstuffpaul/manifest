@@ -1,6 +1,3 @@
-# calphonic_manifest
-
-
 ## Start with this...
 
 ```
