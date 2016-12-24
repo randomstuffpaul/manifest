@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="fun"
+           fetch="https://github.com/funrom"
+           revision="f7.1" />
+  <!-- slim forks -->
+  <project path="frameworks/base" name="frameworks_base" remote="fun" />
+  <project path="frameworks/native" name="frameworks_native" remote="fun" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fun" />
+  <project path="fun" name="fun" remote="fun" />
+</manifest>
