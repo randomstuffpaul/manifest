@@ -7,30 +7,32 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
   <remote  name="calphonic"
-           fetch="https://github.com/calebcabob/" 
-           sync-j="6" />          
+           fetch="https://github.com/calebcabob/" />
+  <remote  name="aqua"
+           fetch="https://github.com/aquarios/" />
   <default revision="refs/tags/android-7.1.1_r6"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
            
 
-  <!-- calphonic repos -->
-  <project path="build" name="build" groups="pdk,tradefed" remote="calphonic" revision="n7.1.1" >
+  <!-- AquariOS repos -->
+  <project path="build" name="build" groups="pdk,tradefed" remote="aqua" revision="a7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="calphonic" revision="n7.1.1" />
-  <project path="manifest" name="calphonic_manifest" remote="calphonic" revision="n7.1.1" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="calphonic" revision="n7.1.1" />
-  <project path="system/core" name="system_core" groups="pdk" remote="calphonic" revision="n7.1.1" />
-  <project path="vendor/calphonic" name="vendor_calphonic" remote="calphonic" revision="n7.1.1" />
+  <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aqua" revision="a7.1.1" />
+  <project path="manifest" name="manifest" remote="aqua" revision="a7.1.1" />
+  <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="aqua" revision="a7.1.1" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aqua" revision="a7.1.1" />
+  <project path="system/core" name="system_core" groups="pdk" remote="aqua" revision="a7.1.1" />
+  <project path="system/extras" name="system_extras" groups="pdk" remote="aqua" revision="a7.1.1" />
+  <project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="aqua" revision="a7.1.1" />
+  <project path="vendor/calphonic" name="vendor_calphonic" remote="aqua" revision="a7.1.1" />
 
-  <!-- calphonic devices --> 
-  <project path="device/huawei/angler" name="device_huawei_angler" remote="calphonic" revision="n7.1.1" />
-  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="calphonic" revision="android-7.1" />
-
-  <!-- stock kernel -->
-  <project path="device/huawei/angler-kernel" name="device/huawei/angler-kernel" groups="device,angler,broadcom_pdk" clone-depth="1" />
+  <!-- AquariOS devices --> 
+  <project path="device/huawei/angler" name="device_huawei_angler" remote="aqua" revision="a7.1.1" />
+  <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="aqua" revision="a7.1.1" />
+  <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="aqua" revision="a7.1.1" />
 
   <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -379,7 +381,6 @@
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" groups="pdk-fs" />
-  <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/Phone" name="platform/packages/apps/Phone" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" groups="pdk-fs" />
@@ -457,7 +458,6 @@
   <project path="system/connectivity/apmanager" name="platform/system/connectivity/apmanager" />
   <project path="system/connectivity/dhcp_client" name="platform/system/connectivity/dhcp_client" />
   <project path="system/connectivity/shill" name="platform/system/connectivity/shill" />
-  <project path="system/extras" name="platform/system/extras" groups="pdk" />
   <project path="system/firewalld" name="platform/system/firewalld" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" />
   <project path="system/keymaster" name="platform/system/keymaster" groups="pdk" />
@@ -466,7 +466,6 @@
   <project path="system/netd" name="platform/system/netd" groups="pdk" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" groups="pdk" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" groups="pdk" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" groups="pdk-cw-fs,pdk-fs" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
