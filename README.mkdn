@@ -1,11 +1,37 @@
-Welcome to Fun SlimRoms
-===================
-this is slimrom with a few extras that i like
-this is intended to be a personal project
-please dont ask for me to add features
-please dont ask to be a device maintainer
-i cant stop you from building and releasing
+Welcome to SlimRoms
 
-	repo init -u git://github.com/funrom/fun.git -b f7.1
-	
-cd .repo/manifests && git pull https://github.com/SlimRoms/platform_manifest ng7.1 && cd ~/slim && rsfs && cd frameworks/base && git pull https://github.com/SlimRoms/frameworks_base ng7.1 && cd ~/slim/packages/apps/Settings && git pull https://github.com/SlimRoms/packages_apps_Settings ng7.1 && cd ~/slim/frameworks/native && git pull https://github.com/SlimRoms/frameworks_native ng7.1 && cd ~/slim/build && git pull https://github.com/SlimRoms/android_build ng7.1 && cd ~/slim/packages/apps/CellBroadcastReceiver && git pull https://github.com/SlimRoms/packages_apps_CellBroadcastReceiver ng7.1 && cd ~/slim/packages/apps/Contacts && git pull https://github.com/SlimRoms/packages_apps_Contacts ng7.1 && cd ~/slim/packages/apps/ContactsCommon && git pull https://github.com/SlimRoms/packages_apps_ContactsCommon ng7.1 && cd ~/slim/packages/apps/Dialer && git pull https://github.com/SlimRoms/packages_apps_Dialer ng7.1 && cd ~/slim/packages/apps/PhoneCommon && git pull https://github.com/SlimRoms/packages_apps_PhoneCommon ng7.1 && cd ~/slim/system/sepolicy && git pull https://github.com/SlimRoms/system_sepolicy ng7.1 && cd ~/slim/vendor/slim && git pull https://github.com/SlimRoms/vendor_slim ng7.1 && cd ~/slim && sb && mc
+Getting Started
+
+To get started with Slim7, you'll need to get familiar with Git and Repo.
+
+To initialize your local repository using the Slim7 trees, use this command:
+
+repo init -u git://github.com/SlimRoms/platform_manifest.git -b ng7.1
+Then sync up with this command:
+
+repo sync
+Submitting Patches
+
+We're open source, and patches are always welcome! You can send patches by using these commands:
+
+cd <workspace>
+repo start <branch> SlimRoms/<project>
+cd <project>
+git add -A
+git commit -a
+cd <workspace>
+repo upload SlimRoms/<project>
+Commit your patches in a single commit.
+
+Squash multiple commit using this command:
+
+git rebase -i HEAD~<# of commits>
+If you are going to make extra additions, just repeat steps (Don't repo start again), but instead of
+
+git commit -a
+use
+
+git commit --amend
+Gerrit will recognize it as a new patchset.
+
+To view the status of your and others patches, visit SlimRoms Code Review
