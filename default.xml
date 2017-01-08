@@ -20,9 +20,11 @@
   <project path="build" name="build" groups="pdk,tradefed" remote="aqua" revision="a7.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
+  <project path="external/DUtils" name="external_DUtils" remote="aqua" revision="a7.1.1" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aqua" revision="a7.1.1" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aqua" revision="a7.1.1" />
   <project path="manifest" name="manifest" remote="aqua" revision="a7.1.1" />
+  <project path="packages/apps/DUI" name="packages_apps_DUI" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" groups="pdk-fs" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/TheAquarium" name="TheAquarium" remote="aqua" revision="a7.1.1" />
