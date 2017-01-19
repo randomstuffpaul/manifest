@@ -4,19 +4,9 @@
            fetch="https://github.com/funrom"
            revision="f7.1" />
   <!-- slim forks -->
-  <project path="build" name="build" groups="pdk,tradefed" remote="fun" >
-  <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="frameworks/base" name="frameworks_base" remote="fun" />
   <project path="frameworks/native" name="frameworks_native" remote="fun" />
-  <project path="fun" name="fun" remote="fun" />
-  <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="fun" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="fun" />
-  <project path="packages/apps/ContactsCommon" name="packages_apps_ContactsCommon" remote="fun" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="fun" />
-  <project path="packages/apps/Masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
-  <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="fun" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fun" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="fun" />
+  <project path="fun" name="fun" remote="fun" />
   <project path="vendor/slim" name="vendor_fun" remote="fun" />
 </manifest>
