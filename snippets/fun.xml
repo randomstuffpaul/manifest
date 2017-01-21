@@ -10,4 +10,8 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fun" />
   <project path="fun" name="fun" remote="fun" />
   <project path="vendor/slim" name="vendor_fun" remote="fun" />
+
+  <!-- LockClock -->
+  <project path="packages/apps/LockClock" name="BenzoRoms/packages_apps_LockClock" remote="github" revision="noneone" />
+  <project path="external/google" name="BenzoRoms/external_google" remote="github" revision="noneone" />
 </manifest>
