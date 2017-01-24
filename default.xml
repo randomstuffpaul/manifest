@@ -48,7 +48,10 @@
   <project path="device/huawei/angler" name="device_huawei_angler" remote="aqua" revision="a7.1.1" />
   <project path="kernel/huawei/angler" name="kernel_huawei_angler" remote="aqua" revision="a7.1.1" />
   <project path="vendor/huawei" name="proprietary_vendor_huawei" remote="aqua" revision="a7.1.1" />
-
+  <project path="device/htc/flounder" name="device_htc_flounder" remote="aqua" revision="a7.1.1" />
+  <project path="kernel/htc/flounder" name="kernel_htc_flounder" remote="aqua" revision="a7.1.1" />
+  <project path="vendor/htc" name="proprietary_vendor_htc" remote="aqua" revision="a7.1.1" />
+ 
   <!-- aosp repos -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" >
