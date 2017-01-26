@@ -4,7 +4,6 @@
            fetch="https://github.com/funrom"
            revision="f7.1" />
   <!-- slim forks -->
-  <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="fun" />
   <project path="frameworks/base" name="frameworks_base" remote="fun" />
   <project path="frameworks/native" name="frameworks_native" remote="fun" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="fun" />
