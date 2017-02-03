@@ -18,9 +18,6 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="SlimRoms/android_build" groups="pdk,tradefed" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed" remote="aosp" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
@@ -448,7 +445,7 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
   <include name="snippets/slim.xml" />
-  <include name="snippets/fun.xml" />
+  <include name="snippets/aquarios.xml" />
   <include name="snippets/hals.xml" />
 
 </manifest>

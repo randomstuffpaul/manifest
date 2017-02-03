@@ -38,12 +38,10 @@
   <project path="packages/apps/Contacts" name="SlimRoms/packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="SlimRoms/packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="SlimRoms/packages_apps_DeskClock" />
-  <project path="packages/apps/Dialer" name="SlimRoms/packages_apps_Dialer" />
   <project path="packages/apps/Gallery2" name="SlimRoms/packages_apps_Gallery2" />
   <project path="packages/apps/Messaging" name="SlimRoms/packages_apps_Messaging" />
   <project path="packages/apps/Nfc" name="SlimRoms/packages_apps_Nfc" />
   <project path="packages/apps/PhoneCommon" name="SlimRoms/packages_apps_PhoneCommon" />
-  <project path="packages/apps/Snap" name="SlimRoms/packages_apps_Snap" />
   <project path="packages/apps/Stk" name="SlimRoms/packages_apps_Stk" />
   <project path="packages/apps/UnifiedEmail" name="SlimRoms/packages_apps_UnifiedEmail" />
   <project path="packages/inputmethods/LatinIME" name="SlimRoms/packages_inputmethods_LatinIME" />
@@ -53,7 +51,6 @@
   <project path="packages/providers/TelephonyProvider" name="SlimRoms/packages_providers_TelephonyProvider" />
   <project path="packages/services/Mms" name="SlimRoms/packages_services_Mms" />
   <project path="packages/services/Telecomm" name="SlimRoms/packages_services_Telecomm" />
-  <project path="packages/services/Telephony" name="SlimRoms/packages_services_Telephony" />
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
@@ -72,12 +69,9 @@
   <project path="external/fuse" name="SlimRoms/android_external_fuse" />
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" />
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
-  <project path="frameworks/opt/cards" name="SlimRoms/frameworks_opt_cards" />
-  <project path="packages/apps/SlimWallpapers" name="SlimRoms/packages_apps_SlimWallpapers" />
-  <project path="frameworks/opt/slim" name="SlimRoms/frameworks_opt_slim" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
 
   <!-- OMS Additions -->
-  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="n" />
+  <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
 
 </manifest>
