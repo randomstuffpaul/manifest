@@ -10,7 +10,7 @@
            fetch="https://github.com/calebcabob/" />
   <remote  name="aqua"
            fetch="https://github.com/aquarios/" />
-  <default revision="refs/tags/android-7.1.1_r11"
+  <default revision="refs/tags/android-7.1.1_r14"
            remote="aosp"
            sync-c="true"
            sync-j="4" />
