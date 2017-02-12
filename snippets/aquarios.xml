@@ -13,6 +13,7 @@
   <project path="frameworks/native" name="frameworks_native" remote="aqua" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="aqua" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="aqua" revision="a7.1.1" />
+  <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aqua" />
   <project path="packages/apps/TheAquarium" name="TheAquarium" remote="aqua" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aqua" />
