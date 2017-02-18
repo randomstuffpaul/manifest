@@ -19,6 +19,7 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aqua" />
   <project path="packages/apps/TheAquarium" name="TheAquarium" remote="aqua" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aqua" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aqua" />
   <project path="manifest" name="manifest" remote="aqua" />
   <project path="vendor/aquarios" name="vendor_aquarios" remote="aqua" />
 </manifest>
