@@ -23,6 +23,7 @@
   <project path="build/kati" name="build_kati" groups="pdk,tradefed" remote="aqua" revision="a7.1.1" />
   <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="aqua" revision="a7.1.1" />
   <project path="external/DUtils" name="external_DUtils" remote="aqua" revision="a7.1.1" />
+  <project path="external/google" name="external_google" remote="aqua" revision="a7.1.1" />
   <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="aqua" revision="a7.1.1" />
   <project path="frameworks/support" name="frameworks_support" groups="pdk-cw-fs,pdk-fs" remote="aqua" revision="a7.1.1" />
   <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="aqua" revision="a7.1.1" />
@@ -32,6 +33,7 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" groups="pdk-fs" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/ExactCalculator" name="packages_apps_ExactCalculator" groups="pdk-fs" remote="aqua" revision="a7.1.1" />
+  <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/masquerade" name="nicholaschum/masquerade" remote="github" revision="master" />
   <project path="packages/apps/OmniStyle" name="packages_apps_OmniStyle" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller" groups="pdk-fs" remote="aqua" revision="a7.1.1" />
