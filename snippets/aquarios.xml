@@ -12,6 +12,7 @@
   <project path="external/google" name="external_google" remote="aqua" revision="a7.1.1" />
   <project path="frameworks/base" name="frameworks_base" remote="aqua" />
   <project path="frameworks/native" name="frameworks_native" remote="aqua" />
+  <project path="manifest" name="manifest" remote="aqua" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="aqua" />
   <project path="packages/apps/DUI" name="packages_apps_DUI" remote="aqua" revision="a7.1.1" />
   <project path="packages/apps/LockClock" name="packages_apps_LockClock" remote="aqua" revision="a7.1.1" />
@@ -20,6 +21,7 @@
   <project path="packages/apps/TheAquarium" name="TheAquarium" remote="aqua" />
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="aqua" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="aqua" />
-  <project path="manifest" name="manifest" remote="aqua" />
+  <project path="system/bt" name="system_bt" remote="aqua" />
+  <project path="system/vold" name="system_vold" remote="aqua" />
   <project path="vendor/aquarios" name="vendor_aquarios" remote="aqua" />
 </manifest>
