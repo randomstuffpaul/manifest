@@ -444,8 +444,9 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" remote="aosp" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
 
-  <include name="snippets/slim.xml" />
   <include name="snippets/aquarios.xml" />
+  <include name="snippets/devices.xml" />
   <include name="snippets/hals.xml" />
+  <include name="snippets/slim.xml" />
 
 </manifest>
