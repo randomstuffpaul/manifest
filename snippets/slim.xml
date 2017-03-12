@@ -52,13 +52,11 @@
   <project path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="SlimRoms/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" />
   <project path="system/bt" name="SlimRoms/android_system_bt" />
-  <project path="system/core" name="SlimRoms/android_system_core" />
   <project path="system/extras" name="SlimRoms/android_system_extras" />
   <project path="system/keymaster" name="SlimRoms/android_system_keymaster" />
   <project path="system/media" name="SlimRoms/android_system_media" />
   <project path="system/netd" name="SlimRoms/android_system_netd" />
   <project path="system/security" name="SlimRoms/android_system_security" />
-  <project path="system/sepolicy" name="SlimRoms/android_system_sepolicy" />
 
   <!-- Slim Additions -->
   <project path="external/exfat" name="SlimRoms/android_external_exfat" />
@@ -67,8 +65,5 @@
   <project path="external/stagefright-plugins" name="SlimRoms/android_external_stagefright-plugins" />
   <project path="external/ntfs-3g" name="SlimRoms/android_external_ntfs-3g" />
   <project path="packages/apps/SamsungServiceMode" name="SlimRoms/packages_apps_SamsungServiceMode" />
-
-  <!-- OMS Additions -->
-  <project path="packages/apps/masquerade" name="substratum/masquerade" remote="github" revision="n" />
 
 </manifest>
